@@ -28,8 +28,8 @@ export class CadastroFilmesComponent implements OnInit {
 
   get f() {
     return this.cadastro.controls;
-  }
-
+  } 
+ 
   ngOnInit(): void {
     this.id = this.activatedRoute.snapshot.params['id'];
     if (this.id) {
@@ -39,7 +39,7 @@ export class CadastroFilmesComponent implements OnInit {
       this.criarFormulario(this.criarFilmeEmBranco());
     }
 
-    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
+    this.generos = ['Ação', 'Aventura', 'Comédia', 'Drama', 'Ficção', 'Romance', 'Terror'];
 
   }
 

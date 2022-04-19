@@ -17,11 +17,11 @@ export class ConfigParamsService {
     if (config.limite) {
       httpParams = httpParams.set('_limit', config.limite.toString());
     }
-    if (config.pesquisa) {
-      httpParams = httpParams.set('q', config.pesquisa);
+    if (config.pesquisaTexto) {
+      httpParams = httpParams.set('q', config.pesquisaTexto);
     }
-    if (config.campo) {
-      httpParams = httpParams.set(config.campo.tipo, config.campo.valor.toString());
+    if ((config.pesquisaCampo) && (config.pesquisaCampo.valor != null)) {
+      httpParams = httpParams.set(config.pesquisaCampo.tipo, config.pesquisaCampo.valor.toString());
     }
     httpParams = httpParams.set('_sort', 'id');
     httpParams = httpParams.set('_order', 'desc');

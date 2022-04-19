@@ -33,18 +33,18 @@ export class ListagemFilmesComponent implements OnInit {
     });
 
     this.filtrosListagem.get('texto').valueChanges
-    .pipe(debounceTime(400))
+    .pipe(debounceTime(500))
     .subscribe((val: string) => {
-      this.config.pesquisa = val;
+      this.config.pesquisaTexto = val;
       this.resetarConsulta();
     });
 
     this.filtrosListagem.get('genero').valueChanges.subscribe((val: string) => {
-      this.config.campo = {tipo: 'genero', valor: val};
+      this.config.pesquisaCampo = {tipo: 'genero', valor: val};
       this.resetarConsulta();
     });
 
-    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
+    this.generos = ['Ação', 'Aventura', 'Comédia', 'Drama', 'Ficção', 'Romance', 'Terror'];
 
     this.listarFilmes();
   }

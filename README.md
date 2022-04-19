@@ -1,28 +1,29 @@
-# Curso Intermediário de Angular - Digital Innovation One
+# Técnicas avançadas em Angular - Digital Innovation One
 
-Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
+<article id="be934654-1d87-419c-8286-95e7e698a6fb" class="page sans">
+    <header><img class="page-cover-image" src="https://cdn.worldvectorlogo.com/logos/angular-3.svg" style="object-position:center 38.6%" />
+        <div class="page-header-icon page-header-icon-with-cover"></div>
+        <h1 class="page-title">DIO - Criando um sistema de filmes com Angular</h1>
+    </header>   
+</article>
 
-O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
+- Esse curso foi feito para a plataforma [Digital Innovation One](https://digitalinnovation.one/)
 
-## Instalação
+- O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edições, listagem e visualização dos filmes.
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
-2. Entre no projeto e instale as dependencias `npm install`
-3. Caso você queira alguma aula específica lembre que voce pode pegar direto das nossas release fazendo download do zip ou clonando a partir do commit hash, URL: https://github.com/RenanRB/curso-angular/tags
+<br> 
 
-## Ambiente Local
+# Contato:
 
-Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
-
-## Simulando o Back-end
-
-Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
-
-## Gerando componente
-
-Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
-
+	<table>
+            <tr>
+                <td><a href="https://www.linkedin.com/in/jos%C3%A9-oliveira-31906a207/" target="_blank">Linkedin</a>         </td>
+           </tr>
+            <tr>
+                <td><a href="https://github.com/zecabh/" target="_blank">Github</a>  </td>
+            </tr>
+             <tr>
+                <td><a href="https://www.instagram.com/zecabh/" target="_blank">Instagram</a>  </td>
+            </tr>
+        </table>
+   

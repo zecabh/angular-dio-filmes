@@ -15,7 +15,8 @@
 
 # Contato:
 
-	<table>
+
+<table>
             <tr>
                 <td><a href="https://www.linkedin.com/in/jos%C3%A9-oliveira-31906a207/" target="_blank">Linkedin</a>         </td>
            </tr>
@@ -26,4 +27,3 @@
                 <td><a href="https://www.instagram.com/zecabh/" target="_blank">Instagram</a>  </td>
             </tr>
         </table>
-   
